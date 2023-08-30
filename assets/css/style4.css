@@ -1,0 +1,138 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+html,
+body{
+     
+    font-family: "Nunito Sans" , sans-serif;
+    -webkit-font-smoothing: antialiased;
+   
+    
+    
+}
+
+.box{
+   
+    padding: 30px;
+    background-color:rgb(243, 113, 49);
+    color:rgb(249, 243, 243);
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+      margin:  20px 0; 
+     width: 100%;
+     
+    
+    
+   
+}
+ 
+.heading2{
+    
+    color: rgb(253, 254, 255);
+    
+      
+}
+
+.heading2 li{
+    list-style-type: none;
+     padding: 6px 0; 
+
+
+    
+    
+}
+
+a{
+    color: rgb(142, 138, 138);
+    text-decoration: none;
+}
+
+.heading3 li{
+    list-style-type: none;
+    padding:6px 0;
+    
+}
+    @media screen and (max-width:3300px){
+        .box {
+             display: flex;
+            flex-direction: row; 
+        }
+        
+    }
+
+    
+    @media screen and (max-width:1400px){
+        .box {
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
+
+@media screen and (max-width:1200px){
+        .box {
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
+   
+    @media screen and (max-width:770px){
+        .box {
+            display: grid;
+            grid-template-areas: 'heading1 heading2'
+                                'heading3 heading4';
+        }
+        .heading1{
+            grid-area: heading1;
+        }
+        .heading2{
+            grid-area: heading2;
+        }
+        .heading3{
+            grid-area: heading3;
+        }
+        .heading4{
+            grid-area: heading4;
+        }
+    }
+ @media  screen and (max-width:550px) {
+
+    .box{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+ }
+
+ h3{
+    color: white;
+ }
+ h1{
+    color: white;
+    
+    
+ }
+
+ a:hover{
+    
+    text-decoration: underline 2px;
+ }
+ p:hover{
+    color: white;
+    
+ }
+ h4{
+    color:white;
+ 
+
+ }

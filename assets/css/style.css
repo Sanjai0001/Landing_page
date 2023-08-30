@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+      width: 100%;
+    height: 100%; 
+    
+}
+body{
+    background-image:url(./bgimage.jpg);
+    background-size: cover;
+    height: 107vh;
+    background-repeat: no-repeat;
+  
+    
+   
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    padding:20px 10px;
+    color: white;
+    font-family:  'Bebas Neue', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+h3{
+    padding:20px 4px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+nav button{
+    /* background-color: ; */
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    margin:10px;
+    padding: 5px;
+    border: 1px solid white;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.container{
+    width: 50%;
+    margin-top: 14%;
+    margin-left: 10%;
+    color: white;   
+    cursor: pointer;        
+}
+.container p{
+    padding-top: 25px;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.container button{
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size:15px;
+    font-weight: bold;
+    background-color: rgb(6, 6, 36);
+    color: azure;
+    cursor: pointer;
+    background-color:rgb(236, 112, 4);
+    
+   
+}
+.container h1{
+    font-family: 'Belanosima', sans-serif;
+    letter-spacing: 6px;
+}
+.container h4{
+    font-family: 'Belanosima', sans-serif;
+    letter-spacing: 3px;
+}
+
+
+
+    
+nav i  {
+    color: white;
+}
+
+nav li:hover{
+    text-decoration: underline black 5px;
+    transition: 1s;
+    /* background-color:rgb(236,112,4); 
+       
+    border-radius: 20px 20px; */
+
+    
+}
+
+
+
+
+
+.span1{
+    color:rgb(236, 112, 4);
+    font-size: 43px;
+}
+
+.logo i{
+ 
+   color:rgb(244, 246, 249);
+   padding: 35px 7px ;
+   font-size:45px;
+  
+   
+   
+}
+
+.logo i:hover {
+    font-size: 40px;
+    
+}
+
+h4 span{
+    font-size: 25px;
+    color: rgb(236,112,4);
+}
+.container button:hover{
+    background-color:rgb(236, 112, 4);
+}
+
+button{
+    background-color: rgb(236, 112, 4); 
+}
+.demo button:hover{
+    background-color: transparent;
+    background-color: rgb(236, 112, 4);
+}
+
+@media  screen and (max-width:1200px) {
+    .main{
+        display: flex;
+        justify-content: center;
+
+    }
+}
+    
+
+
+@media screen and (max-width: 770px) {
+
+.main{
+
+        display: flex;
+       justify-content: center; 
+}
+
+}       
+
+@media screen and (max-width:320px) {
+  .logo{
+         font-size:1px;
+  }
+}      
+
+
+@media screen and (max-width: 480px) {
+
+nav li{
+display:inline-block;
+}
+
+
+}    
+
+li a{
+color: white;
+text-decoration: none;
+}
+h3 span{
+color:rgb(236, 112, 4);
+font-size: 25px;
+}

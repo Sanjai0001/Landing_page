@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+
+<style> 
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+html,
+body{
+     
+    font-family: "Nunito Sans" , sans-serif;
+    -webkit-font-smoothing: antialiased;
+   
+    
+    
+}
+
+.box{
+   
+    padding: 30px;
+    background-color: rgb(37, 37, 38); 
+    color:rgb(142,138, 138);
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+      margin:  20px 0; 
+     width: 100%;
+     
+    
+    
+   
+}
+ 
+.heading2{
+    
+    color: rgb(253, 254, 255);
+    font-size: 30px;
+      
+}
+
+.heading2 li{
+    list-style-type: none;
+     padding: 6px 0; 
+
+
+    
+    
+}
+
+a{
+    color: rgb(142, 138, 138);
+    text-decoration: none;
+}
+
+.heading3 li{
+    list-style-type: none;
+    padding:6px 0;
+    
+}
+    @media screen and (max-width:3300px){
+        .box {
+             display: flex;
+            flex-direction: row; 
+        }
+        
+    }
+
+    
+    @media screen and (max-width:1400px){
+        .box {
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
+
+@media screen and (max-width:1200px){
+        .box {
+            display: flex;
+            flex-direction: row;
+        }
+        
+    }
+   
+    @media screen and (max-width:770px){
+        .box {
+            display: grid;
+            grid-template-areas: 'heading1 heading2'
+                                'heading3 heading4';
+        }
+        .heading1{
+            grid-area: heading1;
+        }
+        .heading2{
+            grid-area: heading2;
+        }
+        .heading3{
+            grid-area: heading3;
+        }
+        .heading4{
+            grid-area: heading4;
+        }
+    }
+ @media  screen and (max-width:550px) {
+
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+ }
+
+ h3{
+    color: white;
+ }
+ h1{
+    color: white;
+    
+    
+ }
+
+ a:hover{
+    color: white;
+    padding-left: 2px;
+ }
+ p:hover{
+    color: white;
+    padding-left: 2px;
+ }
+ h4{
+    color:white;
+ 
+
+ }
+
+
+</style> 
+</head> 
+<body>
+    <footer class="footer">
+       
+            <div class="box">
+
+
+                <div class="heading1">
+                    
+                        <h1>Male Fashion.</h1>
+                        <p>The Customer is at the heart of our unique <br> bussiness model, which include design.</p>
+                        <a href="#"><img src="./card1.jpg" alt=""></a>
+                        <a href="#"><img src="./card2.webp"alt=""></a>
+                        <a href="#"><img src="./card3.avif" alt=""></a>
+                        <a href="#"><img src="./card4.jpg" alt=""></a>
+
+                    
+                </div>
+
+                <div class="heading2">
+                    
+                        <h3>Shopping</h3>
+                        <ul>
+                            <li><a href="#">Clothing Store</a></li>
+                            <li><a href="#">Trending Shoes</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Sale</a></li>
+
+                        </ul>
+                    
+                </div>
+
+                <div class="heading3">
+                    
+                        <h3>Links</h3>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Delivary</a></li>
+                            <li><a href="#">Return & Exchanges</a></li>
+
+                        </ul>
+                   
+                </div>
+
+                <div class="heading4">
+                   
+                        <h4>NewsLetter</h4>
+                        <div class="footer-newslatter">
+                            <p>Be the first to know about new arrivals, look <br> books, sales & promos!</p>
+                            <br>
+                                <h4>Codeingwithnick</h4>
+                                <input type="text" placeholder="EMAIL**">
+                                
+                                <button type="submit"><span><i class="fa fa-envelope"
+                                            arial-hidden="true"></i></span></button>
+                         
+                        </div>
+
+                  
+                </div>
+            </div>
+
+
+
+       
+
+    </footer>
+
+
+
+    
+</body>
+</html>
